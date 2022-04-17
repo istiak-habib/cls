@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.test1 {
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    margin: 100px;
+}
+
+.test-div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    line-height: 150px;
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+.div1 {
+    transform: rotate(0deg);
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.div1:hover{
+    transform: rotate(360deg);
+    background-color: cadetblue;
+    color: black;
+}
+
+.div2 {
+    transform: scale(1);
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.div2:hover{
+    transform: scale(1.2);
+    background-color: darkgoldenrod;
+    color: crimson;
+}
+
+.div3 {
+    transform: skew(0deg, 0deg);
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.div3:hover{
+    transform: skew(10deg, 180deg);
+    background-color: coral;
+    color: chartreuse;
+}
+
+.div4 {
+    transform: translate(0px, 0px);
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.div4:hover{
+    transform: translate(40px, -30px);
+    background-color: chartreuse;
+    color: red;
+}
+
+.image {
+    width: 230px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 146px;
+    padding: 30px;
+}
+.image img {
+    max-width: 100%;
+    border-radius: 146px;
+    cursor: pointer;
+    transition: 1s;
+}
+.image img:hover{
+    transform: rotate(360deg);
+}
+
+.banner{
+    display: flex;
+}
+
+.image1 {
+    width: 230px;
+    margin: auto;
+    text-align: left;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 30px;
+}
+.image1 img {
+    max-width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.image1 img:hover{
+    transform: scale(1.2);
+}
